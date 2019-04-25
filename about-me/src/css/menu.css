@@ -12,35 +12,41 @@ body {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    animation: rightShift 1s; 
 }
 
 .sidenav a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #4286f4;
+    color: #f1f1f1;
     display: block;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #4286f4;
 }
 
 .main {
     margin-left: 200px; /* Same as the width of the sidenav */
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-p.ex1 {
-    max-width: 50%;
-}
-
 .sidenav img {
     position: absolute; 
     bottom: 200px;
     left: 0; 
+}
+.section { 
+    max-width: "80%" ; 
+    text-align: "left";
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@keyframes rightShift {
+    0%   {left:-200px}
+    100%  {left:0px}
 }
