@@ -11,8 +11,8 @@ class Contact extends Component {
     return (
   
         <div style={{marginLeft: "300px"}}> 
-            <p style={{fontSize:"50px"}} id="Contact">Contact</p>
-            <p style={{maxWidth: "80%" , textAlign: "left"}}>
+            <p className="header" id="Contact">Contact</p>
+            <p className="details">
                 59 Silkwood Cres. <br/>
                 Brampton, ON<br/> 
                 Canada <br/> 

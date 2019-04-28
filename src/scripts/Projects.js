@@ -11,7 +11,7 @@ class Projects extends Component {
     return (
   
         <div style={{marginLeft: "300px"}}> 
-            <p style={{fontSize:"50px"}}id="Projects">Academic Projects</p>
+            <p className="header" id="Projects">Academic Projects</p>
             <div class="text-wrap" style={{width: "80%", textAlign: "left"}}>
                 <h5> Riff Warrior – C# Video Game Sept 2017 – April 2018 </h5> 
                 <ul>

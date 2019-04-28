@@ -10,7 +10,7 @@ class Work extends Component {
     return (
   
         <div style={{marginLeft: "300px"}}> 
-            <p style={{fontSize:"50px"}}id="Work">Work Experience</p>
+            <p className="header" id="Work">Work Experience</p>
             <div class="text-wrap" style={{width: "80%", textAlign: "left"}}>
                 <h5> Evertz Microsystems – Project Engineer June 2018 – Jan 2019 </h5>
                 <ul>

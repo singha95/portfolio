@@ -11,8 +11,8 @@ class Education extends Component {
     return (
   
         <div style={{marginLeft: "300px"}}> 
-            <p style={{fontSize:"50px"}}id="Education">Education</p>
-            <p style={{maxWidth: "80%" , textAlign: "left"}}>
+            <p className="header" id="Education">Education</p>
+            <p className="details">
             University of Toronto Sept 2014 - May 2018<br/>
             Honors Bachelor of Science in Computer Science,<br/>
             Focus in Artificial Intelligence<br/>

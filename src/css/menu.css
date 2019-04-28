@@ -1,6 +1,15 @@
 body {
     font-family: "Lato", sans-serif;
 }
+.header { 
+    text-align: left;
+    font-size: 50px;
+}
+
+.details { 
+    width: 80%;
+    text-align: left;
+}
 
 .sidenav {
     height: 100%;
