@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 
 class Projects extends Component {
   /**
-   * Class that represents the UI component that will be displayed on every page. 
-   * This includes the modals for creating a post and login to the server. 
+   * Class that represents my University Projects and Side Projects 
    */
 
   render() {
@@ -13,37 +12,64 @@ class Projects extends Component {
   
         <div style={{marginLeft: "300px"}}> 
             <p style={{fontSize:"50px"}}id="Projects">Academic Projects</p>
-            <p style={{maxWidth: "80%" , textAlign: "left"}}>
-                Riff Warrior – C# Video Game Sept 2017 – April 2018
+            <div class="text-wrap" style={{width: "80%", textAlign: "left"}}>
+                <h5> Riff Warrior – C# Video Game Sept 2017 – April 2018 </h5> 
                 <ul>
-                    <li>Worked with a large, 8 person, team to develop a third person action adventure game</li>
-                    <li>Utilized the guitar hero controller in order to defeat enemies</li>
-                    <li>Developed using the Unity game engine</li>
-                    <li>The game will be at Level-Up, student games showcase, 2018</li>
+                <li>
+                    Worked with a diverse team of programmers, artists and musicians to create a third person action adventure game in the Unity game engine. The game utilized the rock band controller for player movement and the battle system. The game was showcased at the Level-Up 2018, student games showcase, at the Design Exchange in Toronto
+                </li> 
+                <li> 
+                    Players would explore a maze to search for an exit. At the end there would be a final boss for players to defeat, which would be similar to a rock band song. 
+                </li> 
+                <li> 
+                    Created a tutorial for players to get accustomed to the game controls. In addition it would introduce players to the rhythm based battle mechanics. 
+                </li> 
+    • Performed user testing with other students to find game bugs and to receive feedback in order to improve gameplay. 
                 </ul>
 
-                Cartoon Optical Flow – MATLAB, Python, Bash Sept 2017 – Jan 2018
+                <h5> Cartoon Optical Flow – MATLAB, Python, Bash Sept 2017 – Jan 2018 </h5>
                 <ul>
-                    <li>Developed an optical flow dataset using Blender</li>
-                    <li>Developed in Python and utilized scripts in Bash and MATLAB</li>
-                    <li>Tested with multiple optical flow algorithms found on the MPI Sintel Dataset.</li>
+                    <li> 
+                        Developed an optical flow dataset similar to MPI Sintel Dataset using the Blender Python API. The project was published as a part of the 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) under the title of Creative Flow+ Dataset. 
+                    </li>
+                    <li> 
+                        Users would be able to create their own datasets with different cartoons and stylized effects. This data set can then be used with existing optical flow algorithms as training data or to test how well the algorithm generalizes.
+                    </li> 
+                    <li> 
+                        Created scripts in bash that would help users automate the process of rendering batches of Blender objects. In addition, created Python scripts using the Blender API to randomize the camera placement in the scene. 
+                    </li> 
+                    <li> 
+                        Utilized MATLAB to gather statistical data about how well some optical flow algorithms performed on the dataset 
+                    </li>
                 </ul>
 
-                Environment Ray Tracer and OpenGL Shaders – C++ Nov 2017 – Dec 2017
+                <h5> Group Finder – JavaScript, React, Node JS 	May 2018 – Sep 2018</h5> 
                 <ul>
-                    <li>Implemented an environment ray tracer</li>
-                    <li>Supported texture mapping and reflections</li>
-                    <li>Halftone shading, Cell shading, texture mapping, and Phone shading</li>
+                    <li> 
+                        Worked with peers to create a tool that would help students post their personal projects in order to find like minded team members.  
+                    </li> 
+                    <li> 
+                        Created a Mongo database to hold user data and theirs posts. Ensured that the web page was correctly pulling and posting data to and from the Mongo database.
+                    </li> 
+                    <li> 
+                        Developed front end UI using React for posting and viewing profiles. Collaborated with team members to improve the usability for the interface. 
+                    </li> 
                 </ul>
 
-                CSP Problem Solver – C# July 2017 – Sept 2017
+                <h5> CSP Problem Solver – C# July 2017 – Sept 2017 </h5> 
                 <ul>
-                    <li>C# constraint satisfaction problem solver</li>
-                    <li>Improved storage efficiency of the program</li>
-                    <li>Implemented a nonogram puzzle for testing.</li>
+                    <li> 
+                        Created a constraint satisfaction problem solver in Python. The program takes variables and theirs constraints. The program will provide a valid assignment for each of the variables within the given constraints. 
+                    </li> 
+                    <li> 
+                        Implemented a Nonogram puzzle in order to test the performance and correctness of the program. The result of the puzzle would be displayed in a UI using the Tkinter Python API  
+                    </li> 
+                    <li> 
+                        Converted the program into C# and improved memory efficiency using lambda functions for the constraints. 
+                    </li>
                 </ul>
 
-            </p>
+            </div>
         </div>
     );
   }

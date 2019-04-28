@@ -10,13 +10,27 @@ class NavBar extends Component {
   render() {
 
     return (
-  
-        <div id="mySidenav" className="sidenav">
-            <a href="#About" id="about">About</a>
-            <a href="#Education" id="blog">Education</a>
-            <a href="#Projects" id="projects">Projects</a>
-            <a href="#Contact" id="contact">Contact</a>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Work">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     );
   }
 }

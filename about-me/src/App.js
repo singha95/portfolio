@@ -6,6 +6,7 @@ import About from './scripts/About.js'
 import Education from './scripts/Education.js'
 import Projcts from './scripts/Projects.js'
 import Contact from './scripts/Contact.js'
+import Work from './scripts/Work.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar/>  
       <About/>
       <Education/>
+      <Work/>
       <Projcts/>
       <Contact/>
     </div>
