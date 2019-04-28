@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 
 class Contact extends Component {
   /**
-   * Class that represents the UI component that will be displayed on every page. 
-   * This includes the modals for creating a post and login to the server. 
+   * Class that represents my Contacts details, Linkedin and Github 
    */
 
   render() {
