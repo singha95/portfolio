@@ -11,9 +11,9 @@ class NavBar extends Component {
 
     return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse cl-effect-15" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
