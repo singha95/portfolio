@@ -10,18 +10,19 @@ class Contact extends Component {
 
     return (
   
-        <div className="section"> 
-            <p className="header" id="Contact">Contact</p>
-            <p className="details">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Contact">
+          <p className="contact-details">
                 59 Silkwood Cres. <br/>
                 Brampton, ON<br/> 
                 Canada <br/> 
                 Phone: 647 801 0974<br/>
+          </p>
+          <p className="social-media-link">
                 Email: angad.singh@alum.utoronto.ca<br/>
                 Github: <a href="http://www.github.com/singha95">http://www.github.com/singha95</a><br/>
                 Linkedin: <a href="https://www.linkedin.com/in/angad-88s">https://www.linkedin.com/in/angad-88s</a>
-            </p>
-        </div>
+          </p>
+        </nav>
     );
   }
 }
