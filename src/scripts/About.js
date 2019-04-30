@@ -11,7 +11,7 @@ class About extends Component {
 
     return (
   
-        <div style={{marginLeft: "300px"}}> 
+        <div className="section"> 
             <p className="header" id="About">About</p>
             <p className="details">I am graduating computer science specialist program at the University of Toronto. I have a
             strong background in languages such as Bash, Python, JavaScript and C#. Through my experiences and

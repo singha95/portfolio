@@ -10,7 +10,7 @@ class Education extends Component {
 
     return (
   
-        <div style={{marginLeft: "300px"}}> 
+        <div className="section"> 
             <p className="header" id="Education">Education</p>
             <p className="details">
             University of Toronto Sept 2014 - May 2018<br/>

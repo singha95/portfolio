@@ -9,11 +9,11 @@ class Projects extends Component {
   render() {
 
     return (
-  
-        <div style={{marginLeft: "300px"}}> 
+        
+        <div className="section"> 
             <p className="header" id="Projects">Academic Projects</p>
-            <div class="text-wrap" style={{width: "80%", textAlign: "left"}}>
-                <h5> Riff Warrior – C# Video Game Sept 2017 – April 2018 </h5> 
+            <div className="card card-style" >
+                <h5 class="card-title"> Riff Warrior – C# Video Game Sept 2017 – April 2018 </h5> 
                 <ul>
                 <li>
                     Worked with a diverse team of programmers, artists and musicians to create a third person action adventure game in the Unity game engine. The game utilized the rock band controller for player movement and the battle system. The game was showcased at the Level-Up 2018, student games showcase, at the Design Exchange in Toronto
@@ -23,27 +23,15 @@ class Projects extends Component {
                 </li> 
                 <li> 
                     Created a tutorial for players to get accustomed to the game controls. In addition it would introduce players to the rhythm based battle mechanics. 
-                </li> 
-    • Performed user testing with other students to find game bugs and to receive feedback in order to improve gameplay. 
+                </li>
+                <li> 
+                    Performed user testing with other students to find game bugs and to receive feedback in order to improve gameplay. 
+                </li>
                 </ul>
+            </div>
 
-                <h5> Cartoon Optical Flow – MATLAB, Python, Bash Sept 2017 – Jan 2018 </h5>
-                <ul>
-                    <li> 
-                        Developed an optical flow dataset similar to MPI Sintel Dataset using the Blender Python API. The project was published as a part of the 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) under the title of Creative Flow+ Dataset. 
-                    </li>
-                    <li> 
-                        Users would be able to create their own datasets with different cartoons and stylized effects. This data set can then be used with existing optical flow algorithms as training data or to test how well the algorithm generalizes.
-                    </li> 
-                    <li> 
-                        Created scripts in bash that would help users automate the process of rendering batches of Blender objects. In addition, created Python scripts using the Blender API to randomize the camera placement in the scene. 
-                    </li> 
-                    <li> 
-                        Utilized MATLAB to gather statistical data about how well some optical flow algorithms performed on the dataset 
-                    </li>
-                </ul>
-
-                <h5> Group Finder – JavaScript, React, Node JS 	May 2018 – Sep 2018</h5> 
+            <div className="card card-style" >
+                <h5 class="card-title"> Group Finder – JavaScript, React, Node JS 	May 2018 – Sep 2018</h5> 
                 <ul>
                     <li> 
                         Worked with peers to create a tool that would help students post their personal projects in order to find like minded team members.  
@@ -55,8 +43,10 @@ class Projects extends Component {
                         Developed front end UI using React for posting and viewing profiles. Collaborated with team members to improve the usability for the interface. 
                     </li> 
                 </ul>
+            </div> 
 
-                <h5> CSP Problem Solver – C# July 2017 – Sept 2017 </h5> 
+            <div className="card card-style" >
+                <h5 class="card-title">  CSP Problem Solver – C# July 2017 – Sept 2017 </h5> 
                 <ul>
                     <li> 
                         Created a constraint satisfaction problem solver in Python. The program takes variables and theirs constraints. The program will provide a valid assignment for each of the variables within the given constraints. 
@@ -68,8 +58,8 @@ class Projects extends Component {
                         Converted the program into C# and improved memory efficiency using lambda functions for the constraints. 
                     </li>
                 </ul>
-
             </div>
+
         </div>
     );
   }

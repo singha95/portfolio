@@ -20,6 +20,9 @@ class NavBar extends Component {
             <a class="nav-link" href="#Education">Education</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#Publication">Publication</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#Work">Work Experience</a>
           </li>
           <li class="nav-item">
