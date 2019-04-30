@@ -19,6 +19,7 @@ body {
 .card-style { 
     width: 90%; 
     text-align: left; 
+    animation: rightShift 1s; 
 }
 
 .menu { 
@@ -32,13 +33,17 @@ body {
     right: 0%;
     text-align: right;
     position: absolute;
-
 }
 
+.contact-details{ 
+    margin-left: 30%;
+    text-align: left;
+    padding-right: 50px;
+}
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.social-media-link { 
+    right: 30%;
+    text-align: left;
 }
 
 @keyframes rightShift {
