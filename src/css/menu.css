@@ -6,49 +6,21 @@ body {
     font-size: 50px;
 }
 
+
+.section { 
+    margin-left: 10%;
+}
+
 .details { 
-    width: 80%;
+    width: 90%;
     text-align: left;
 }
 
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-    animation: rightShift 1s; 
+.card-style { 
+    width: 90%; 
+    text-align: left; 
 }
 
-.sidenav a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #f1f1f1;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: #4286f4;
-}
-
-.main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-}
-
-.sidenav img {
-    position: absolute; 
-    bottom: 200px;
-    left: 0; 
-}
-.section { 
-    max-width: "80%" ; 
-    text-align: "left";
-}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
