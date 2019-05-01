@@ -12,8 +12,8 @@ class Publication extends Component {
         
         <div className="section"> 
             <p className="header" id="Publication">Publication</p>
-            <div class="card card-style">
-                <h5 class="card-title"> Cartoon Optical Flow – MATLAB, Python, Bash </h5> 
+            <div className="card card-style">
+                <h5 className="card-title"> Cartoon Optical Flow – MATLAB, Python, Bash </h5> 
                 <h5 className="card-title duration">Sept 2017 – Jan 2018 </h5> 
                 <ul>
                     <li> 

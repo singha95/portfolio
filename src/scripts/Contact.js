@@ -10,7 +10,7 @@ class Contact extends Component {
 
     return (
   
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Contact">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light" id="Contact">
           <p className="contact-details">
                 59 Silkwood Cres. <br/>
                 Brampton, ON<br/> 

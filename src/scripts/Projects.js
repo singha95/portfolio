@@ -13,7 +13,7 @@ class Projects extends Component {
         <div className="section"> 
             <p className="header" id="Projects">Academic Projects</p>
             <div className="card card-style" >
-                <h5 class="card-title"> Riff Warrior – C# Video Game  </h5> 
+                <h5 className="card-title"> Riff Warrior – C# Video Game  </h5> 
                 <h5 className="card-title duration"> Sept 2017 - April 2018 </h5> 
                 <ul>
                 <li>
@@ -32,7 +32,7 @@ class Projects extends Component {
             </div>
 
             <div className="card card-style" >
-                <h5 class="card-title"> Group Finder – JavaScript, React, Node JS </h5>  	
+                <h5 className="card-title"> Group Finder – JavaScript, React, Node JS </h5>  	
                 <h5 className="card-title duration">  May 2018 – Sep 2018</h5>  
                 <ul>
                     <li> 
@@ -48,7 +48,7 @@ class Projects extends Component {
             </div> 
 
             <div className="card card-style" >
-                <h5 class="card-title">  CSP Problem Solver - C# </h5> 
+                <h5 className="card-title">  CSP Problem Solver - C# </h5> 
                 <h5 className="card-title duration"> July 2017 – Sept 2017 </h5> 
                 <ul>
                     <li> 

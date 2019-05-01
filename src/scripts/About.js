@@ -11,8 +11,8 @@ class About extends Component {
 
     return (
   
-        <div className="section"> 
-            <p className="header" id="About">About</p>
+        <div className="section" style={{paddingTop: "60px"}}> 
+            <p className="header" id="About">Angad Singh</p>
             <p className="details">I am graduating computer science specialist program at the University of Toronto. I have a
             strong background in languages such as Bash, Python, JavaScript and C#. Through my experiences and
             projects in university I have gained communication, teamwork, organization and problem solving

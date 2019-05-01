@@ -1,3 +1,5 @@
+@import "animate.css"; 
+
 body {
     font-family: "Lato", sans-serif;
 }
@@ -9,6 +11,11 @@ body {
 
 .section { 
     margin-left: 10%;
+    animation: fadeIn 1s;
+}
+
+.section .header{
+    animation: fadeInLeft 1s;
 }
 
 .details { 
@@ -19,7 +26,8 @@ body {
 .card-style { 
     width: 90%; 
     text-align: left; 
-    animation: rightShift 1s; 
+    padding: 30px;
+    
 }
 
 .menu { 
@@ -30,7 +38,7 @@ body {
 }
 
 .duration { 
-    right: 0%;
+    right: 30px;
     text-align: right;
     position: absolute;
 }
@@ -64,9 +72,4 @@ body {
 .cl-effect-15 a:focus::before {
 	transform: scale(0.9);
 	opacity: 0;
-}
-
-@keyframes rightShift {
-    0%   {left:-200px}
-    100%  {left:0px}
 }
