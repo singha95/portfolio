@@ -13,8 +13,10 @@ class Publication extends Component {
         <div className="section"> 
             <p className="header" id="Publication">Publication</p>
             <div className="card card-style">
-                <h5 className="card-title"> Cartoon Optical Flow – MATLAB, Python, Bash </h5> 
-                <h5 className="card-title duration">Sept 2017 – Jan 2018 </h5> 
+                <nav className="navbar">
+                    <h5 className="card-title"> Cartoon Optical Flow – MATLAB, Python, Bash </h5> 
+                    <h5 className="card-title">Sept 2017 – Jan 2018 </h5> 
+                </nav>
                 <ul>
                     <li> 
                         Developed an optical flow dataset similar to MPI Sintel Dataset using the Blender Python API. The project was published as a part of the 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) under the title of Creative Flow+ Dataset. 

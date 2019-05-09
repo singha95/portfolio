@@ -13,8 +13,10 @@ class Projects extends Component {
         <div className="section"> 
             <p className="header" id="Projects">Academic Projects</p>
             <div className="card card-style" >
-                <h5 className="card-title"> Riff Warrior – C# Video Game  </h5> 
-                <h5 className="card-title duration"> Sept 2017 - April 2018 </h5> 
+                <nav className="navbar">
+                    <h5 className="card-title"> Riff Warrior – C# Video Game  </h5> 
+                    <h5 className="card-title"> Sept 2017 - April 2018 </h5> 
+                </nav>
                 <ul>
                 <li>
                     Worked with a diverse team of programmers, artists and musicians to create a third person action adventure game in the Unity game engine. The game utilized the rock band controller for player movement and the battle system. The game was showcased at the Level-Up 2018, student games showcase, at the Design Exchange in Toronto
@@ -32,8 +34,10 @@ class Projects extends Component {
             </div>
 
             <div className="card card-style" >
-                <h5 className="card-title"> Group Finder – JavaScript, React, Node JS </h5>  	
-                <h5 className="card-title duration">  May 2018 – Sep 2018</h5>  
+                <nav className="navbar">
+                    <h5 className="card-title"> Group Finder – JavaScript, React, Node JS </h5>  	
+                    <h5 className="card-title">  May 2018 – Sep 2018</h5>  
+                </nav>
                 <ul>
                     <li> 
                         Worked with peers to create a tool that would help students post their personal projects in order to find like minded team members.  
@@ -48,8 +52,10 @@ class Projects extends Component {
             </div> 
 
             <div className="card card-style" >
-                <h5 className="card-title">  CSP Problem Solver - C# </h5> 
-                <h5 className="card-title duration"> July 2017 – Sept 2017 </h5> 
+                <nav className="navbar">
+                    <h5 className="card-title">  CSP Problem Solver - C# </h5> 
+                    <h5 className="card-title"> July 2017 – Sept 2017 </h5>
+                </nav> 
                 <ul>
                     <li> 
                         Created a constraint satisfaction problem solver in Python. The program takes variables and theirs constraints. The program will provide a valid assignment for each of the variables within the given constraints. 
