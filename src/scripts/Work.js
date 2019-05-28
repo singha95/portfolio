@@ -13,6 +13,20 @@ class Work extends Component {
             <p className="header" id="Work">Work Experience</p>
             <div className="card card-style" >
                 <nav className="navbar">
+                    <h5 className="card-title"> Tata Consulting Services - Technical Application Analyst </h5> 
+                    <h5 className="card-title"> Jan 2019 – Current </h5>
+                </nav>
+                <ul>
+                    <li> 
+                        Triaging and fixing issues arise at RBC Bank’s Anti Money Laundering system. Created SQL queries to help find causes of issues. 
+                    </li> 
+                    <li> 
+                        Preformed upgrades and changes on the live Linux based production environment.   
+                    </li>
+                </ul>
+            </div>
+            <div className="card card-style" >
+                <nav className="navbar">
                     <h5 className="card-title"> Evertz Microsystems – Project Engineer </h5> 
                     <h5 className="card-title"> June 2018 – Jan 2019 </h5>
                 </nav>

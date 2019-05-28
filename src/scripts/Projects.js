@@ -14,7 +14,7 @@ class Projects extends Component {
             <p className="header" id="Projects">Academic Projects</p>
             <div className="card card-style" >
                 <nav className="navbar">
-                    <h5 className="card-title"> Riff Warrior – C# Video Game  </h5> 
+                    <h5 className="card-title"> Riff Warrior – C#, Unity </h5> 
                     <h5 className="card-title"> Sept 2017 - April 2018 </h5> 
                 </nav>
                 <ul>
