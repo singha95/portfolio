@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pdf from '../files/Angad-Singh-resume.pdf'
 
 
 class NavBar extends Component {
@@ -30,6 +31,9 @@ class NavBar extends Component {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#Contact">Contact</a>
+          </li>
+          <li className="nav-item"> 
+            <a className="nav-link" href={pdf}>PDF</a>
           </li>
         </ul>
       </div>

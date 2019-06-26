@@ -3,6 +3,7 @@ import pic from '../img/pic.jpg';
 import '../css/menu.css';
 
 
+
 class About extends Component {
   /**
    * Class that represents the UI component that will be displayed on every page. 
