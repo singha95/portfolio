@@ -18,11 +18,19 @@ class Work extends Component {
                 </nav>
                 <ul>
                     <li> 
-                        Triaging and fixing issues arise at RBC Bank’s Anti Money Laundering system. Created SQL queries to help find causes of issues. 
-                    </li> 
+                        Completed introductory training in Java and Eclipse. Created an application for booking rooms and for both clients and admins. 
+                    </li>
                     <li> 
-                        Created scripts in Batch, Python, Shell to help automate daily tasts. This includes execution of SQL queries and the creation of Excel 
-                        spreed sheets detailing issues of irregularities in the systems. 
+                        Placed as TCS contractor to the Royal Bank of Canada to work on their Anti Money Laundering Systems and Fraud prevention 
+                        system to assist with development and support of the systems.
+                    </li>  
+                    <li> 
+                        Monitored the Cloudera Hadoop cluster and resolved any environmental failures and memory issues.
+                        Created SQL queries in DB2 and Hadoop to help find causes of issues. 
+                    </li>
+                    <li> 
+                        Created Scripts in Batch, Python, Shell to help automate daily tasks. This includes execution of SQL queries and the 
+                        creation of Excel spread sheets detailing issues or irregularities in the system.  
                     </li>
                     <li> 
                         Preformed upgrades and changes on the live Linux based production environment.   
@@ -36,21 +44,18 @@ class Work extends Component {
                 </nav>
                 <ul>
                     <li> 
-                        Created scripts to automate the prepossessing and transfer of assets using JavaScript and Python. Git was used as the primary version control manager for scripts
+                    Created scripts to automate the pre-possessing and transcoding of assets using JavaScript and Python. Git was used as the primary version control manager for scripts
                     </li> 
                     <li>
-                        Created the primary script for Non Linear Delivery system in the NBCU project. This system would deliver assets to multiple different platforms with 
-                        different transfer types including Signiant and Faspex. 
+                        Created and maintained the primary scripts for NBCU’s non-linear delivery of assets to media service providers. 
+                        This system utilized various transfer types such as Signiant and Faspex.
                     </li>
                     <li> 
-                        Created SQL queries that would help users search for different assets in the UI. Users would be able to provide different parameters for the search. 
+                        Created targeted SQL queries, enabling powerful on-the-fly reporting of the system’s state to important stakeholders
                     </li>
                     <li> 
-                        Performed manual testing to ensure that the code worked as expected in all cases. All debugging and testing was done in an Ubuntu Linux environment. 
+                        Ran code and performed thorough testing on linux-based systems to ensure proper operation in exhaustive test cases. 
                     </li>
-                    <li> 
-                        Utilized agile work methodologies to ensure that scripts can be changed easily to meet customers’ requirements. Attended daily scrum meetings to collaborate with team members and inform them of any issues.  
-                    </li> 
                     <li> 
                         Participated in bi weekly sprint meetings to organize workload for the upcoming sprint. Used JIRA rank tickets based on their difficult and time required.  
                     </li>
