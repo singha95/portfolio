@@ -14,7 +14,11 @@ class Publication extends Component {
             <p className="header" id="Publication">Publication</p>
             <div className="card card-style">
                 <nav className="navbar">
-                    <h5 className="card-title"> Cartoon Optical Flow – MATLAB, Python, Bash </h5> 
+                    <h5 className="card-title">
+                        <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Shugrina_Creative_Flow_Dataset_CVPR_2019_paper.pdf">
+                             Cartoon Optical Flow – MATLAB, Python, Bash 
+                        </a>
+                    </h5> 
                     <h5 className="card-title">Sept 2017 – Jan 2018 </h5> 
                 </nav>
                 <ul>
