@@ -54,27 +54,6 @@ body {
     text-align: left;
 }
 
-/* Effect 15: scale down, reveal */
-.cl-effect-15 a {
-	color: rgba(0,0,0,0.2);
-	font-weight: 700;
-	text-shadow: none;
-}
-
-.cl-effect-15 a::before {
-	color: #fff;
-	content: attr(data-hover);
-	position: absolute;
-	transition: transform 0.3s, opacity 0.3s;
-}
-
-.cl-effect-15 a:hover::before,
-.cl-effect-15 a:focus::before {
-	transform: scale(0.9);
-	opacity: 0;
-}
-
-
 .halfCircleBottom {
     height:100px;
     width:90%;
@@ -94,4 +73,49 @@ body {
     object-fit: cover;
     object-position: 100% 0;
     text-align: left;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .pic { 
+        width: 100px; 
+        height: 100px; 
+        
+    }
+
+    .halfCircleBottom {
+        height:80px;
+        width:100%;
+        margin-bottom: 300px;
+        padding-left: 120px;
+    }
+
+    .details { 
+        width: 100%;
+        text-align: left;
+    }
+
+    .section { 
+        margin-left: 2%;
+    }
+    
+    .card-style { 
+        width: 100%; 
+        text-align: left; 
+        padding: 0px;
+        
+    }
+
+    .contact-details{ 
+        margin-left: 0%;
+        text-align: left;
+        padding-right: 50px;
+    }
+
+    .social-media-link { 
+
+        text-align: left;
+    }
+
 }
