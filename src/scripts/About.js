@@ -22,10 +22,8 @@ class About extends Component {
               </p>
             </nav>
 
-            <p className="details">I am graduating computer science specialist program at the University of Toronto. I have a
-            strong background in languages such as Bash, Python, JavaScript and C#. Through my experiences and
-            projects in university I have gained communication, teamwork, organization and problem solving
-            skills. I am looking for a career in software development. 
+            <p className="details">Aspiring software developer with 1 year of experience hoping to find a career in areas such as machine learning and back-end development. 
+            I have a passion for writing efficient and clear code and always strive to exceed expectations.  
             </p>
         </div>
     );
