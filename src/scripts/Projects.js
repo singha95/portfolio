@@ -11,7 +11,33 @@ class Projects extends Component {
         return (
 
             <div className="section">
-                <p className="header" id="Projects">Academic Projects</p>
+                <p className="header" id="Projects">Personal Projects</p>
+                <div className="card card-style" >
+                    <nav className="navbar">
+                        <h5 className="card-title">
+                            <a href="https://github.com/singha95/mlb_analytics">MLB Analytics - JavaScript, React, NodeJS, Bootstrap</a>
+                        </h5>
+                        <h5 className="card-title"> Aug 2019 - Current </h5>
+                    </nav>
+                    <ul>
+                        <li> 
+                            Utilized the MLB Stats API to create an interactive web app that will display stats and rosters for the different MLB teams. 
+                        </li>
+                        <li>
+                            Deployed the web app using Google Cloud Platform. ( 
+                                <a href="https://mlb-analytics.appspot.com/" >
+                                    https://mlb-analytics.appspot.com/</a>)
+                        </li>
+                        <li>
+                            Implemented support for mobile devices to ensure that the app is compatible with multiple devices. 
+                        </li>
+                        <li> 
+                            Preformed user testing to receive feedback to help make the UI more engaging and easy to use.  
+                        </li>
+
+                    </ul>
+                </div>
+
                 <div className="card card-style" >
                     <nav className="navbar">
                         <h5 className="card-title">
