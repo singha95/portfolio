@@ -14,7 +14,7 @@ class Work extends Component {
                 <div className="card card-style" >
                     <nav className="navbar">
                         <h5 className="card-title">Technical Application Analyst </h5>
-                        <h5 className="card-title"> Jan 2019 – Current </h5>
+                        <h5 className="card-title"> Feb 2019 – Current </h5>
                     </nav>
                     <nav className="navbar">
                         <h10>Tata Consulting Services</h10>

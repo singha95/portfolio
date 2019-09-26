@@ -15,9 +15,33 @@ class Projects extends Component {
                 <div className="card card-style" >
                     <nav className="navbar">
                         <h5 className="card-title">
+                            <a href="https://github.com/singha95/HearthstoneCardViewer">Hearthstone Card Viewer - Django, Python, HTML, Bootstrap, SQL</a>
+                        </h5>
+                        <h5 className="card-title"> Sept 2019 - Current</h5>
+                    </nav>
+                    <ul>
+                        <li> 
+                            Utilizing the Blizzard Hearthstone API in order to create a web app for players to create and search for new cards. 
+                        </li>
+                        <li>
+                            Using the oauth2 protocol data about current cards in the game is pulled directly from Blizzards servers. 
+                        </li>
+                        <li> 
+                            Utilizing SQLite so that users can search quickly search for cards based on type, mana cost and name.
+                        </li>
+                        <li> 
+                            Developing a feature to allow user to create their own build with the app and save a local copy so that they can edit or modify it later. 
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div className="card card-style" >
+                    <nav className="navbar">
+                        <h5 className="card-title">
                             <a href="https://github.com/singha95/mlb_analytics">MLB Analytics - JavaScript, React, NodeJS, Bootstrap</a>
                         </h5>
-                        <h5 className="card-title"> Aug 2019 - Current </h5>
+                        <h5 className="card-title"> Aug 2019 - Sept 2019</h5>
                     </nav>
                     <ul>
                         <li> 
@@ -35,23 +59,6 @@ class Projects extends Component {
                             Preformed user testing to receive feedback to help make the UI more engaging and easy to use.  
                         </li>
 
-                    </ul>
-                </div>
-
-                <div className="card card-style" >
-                    <nav className="navbar">
-                        <h5 className="card-title">
-                            <a href="https://github.com/singha95/RiffWarrior">Riff Warrior – C#, Unity </a>
-                        </h5>
-                        <h5 className="card-title"> Sept 2017 - April 2018 </h5>
-                    </nav>
-                    <ul>
-                        <li> Cooperated with a diverse team of programmers, artists and musicians to create a third person action adventure game in the Unity game engine.</li>
-                        <li> Players would explore a maze to search for an exit. At the end there would be a final boss for players to defeat, which would be similar to a rock band song. </li>
-                        <li> Improved notes sync with music and improved accuracy of input detection so that the battle system was more responsive and matched the music that was playing.</li>
-                        <li> Created a tutorial for players to get accustomed to the game controls and to introduce players to the rhythm based battle mechanics. </li>
-                        <li> Performed user testing with other students to find game bugs and to receive feedback in order to improve gameplay and to find bugs in the game. </li>
-                        <li> Utilized the rock band controller for player movement and the battle system. The game was showcased at the Level-Up 2018, student games showcase, at the Design Exchange in Toronto</li>
                     </ul>
                 </div>
 
