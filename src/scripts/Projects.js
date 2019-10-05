@@ -48,9 +48,9 @@ class Projects extends Component {
                             Utilized the MLB Stats API to create an interactive web app that will display stats and rosters for the different MLB teams. 
                         </li>
                         <li>
-                            Deployed the web app using Google Cloud Platform. ( 
-                                <a href="https://mlb-analytics.appspot.com/" >
-                                    https://mlb-analytics.appspot.com/</a>)
+                            Deployed the web app using Heroku. ( 
+                                <a href="https://mlb-player-analytics.herokuapp.com/" >
+                                https://mlb-player-analytics.herokuapp.com/</a>)
                         </li>
                         <li>
                             Implemented support for mobile devices to ensure that the app is compatible with multiple devices. 
