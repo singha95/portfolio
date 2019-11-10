@@ -19,6 +19,7 @@ body {
 }
 
 .details { 
+    margin-top: 100px;
     width: 90%;
     text-align: left;
 }
@@ -61,8 +62,8 @@ body {
     position: absolute;
     margin-left: px; 
     margin-bottom: 0px;
-    border-radius: 0 100px 0px 100px;
-    background:lightgrey;
+    border-radius: 0 200px 0px 0px;
+    background:rgb(221, 219, 219);
     text-align: left;
     padding-left: 250px;
 }

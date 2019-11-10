@@ -12,7 +12,7 @@ class Education extends Component {
   
         <div className="section"> 
             <p className="header" id="Education">Education</p>
-            <p className="details">
+            <p className="details" style={{marginTop: "0px"}}>
             University of Toronto Sept 2014 - May 2018<br/>
             Honors Bachelor of Science in Computer Science,<br/>
             Focus in Artificial Intelligence<br/>

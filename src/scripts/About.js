@@ -14,16 +14,15 @@ class About extends Component {
 
     return (
   
-        <div className="section" style={{paddingTop: "60px"}}> 
-            <nav className="navbar" style={{padding: "0px"}}>
-              <img src={pic} alt="na" className="card-title pic"/>
-              <p className="card-title header halfCircleBottom" id="About">
+        <div className="section" style={{paddingTop: "150px"}}> 
+            <nav className="navbar" style={{padding: "0px", left:"0px"}}>
+              <p className="card-title header halfCircleBottom" id="About"
+              style={{paddingLeft: "10px"}}>
                 Angad Singh
               </p>
             </nav>
-
             <p className="details">Aspiring software developer with 1 year of experience hoping to find a career in areas such as machine learning and back-end development. 
-            I have a passion for writing efficient and clear code and always strive to exceed expectations.  
+            I graduated from the University of Toronto, Undergratuate Computer Science program with a focus in artifical intelligence.  
             </p>
         </div>
     );
