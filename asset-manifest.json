@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/about-me/static/css/main.146c5e37.chunk.css",
-    "main.js": "/about-me/static/js/main.636e59b9.chunk.js",
-    "main.js.map": "/about-me/static/js/main.636e59b9.chunk.js.map",
+    "main.js": "/about-me/static/js/main.2fdc3363.chunk.js",
+    "main.js.map": "/about-me/static/js/main.2fdc3363.chunk.js.map",
     "runtime~main.js": "/about-me/static/js/runtime~main.4a75b9b2.js",
     "runtime~main.js.map": "/about-me/static/js/runtime~main.4a75b9b2.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/about-me/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.9d33aedf.chunk.js": "/about-me/static/js/2.9d33aedf.chunk.js",
     "static/js/2.9d33aedf.chunk.js.map": "/about-me/static/js/2.9d33aedf.chunk.js.map",
     "index.html": "/about-me/index.html",
-    "precache-manifest.87e78c17780d3576fbd49a1dabd58bec.js": "/about-me/precache-manifest.87e78c17780d3576fbd49a1dabd58bec.js",
+    "precache-manifest.36471e3bd18cf28b862173e60089a633.js": "/about-me/precache-manifest.36471e3bd18cf28b862173e60089a633.js",
     "service-worker.js": "/about-me/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/about-me/static/css/2.22a7d4ef.chunk.css.map",
     "static/css/main.146c5e37.chunk.css.map": "/about-me/static/css/main.146c5e37.chunk.css.map",
-    "static/media/angad_resume.pdf": "/about-me/static/media/angad_resume.6c067edd.pdf",
+    "static/media/angad_resume.pdf": "/about-me/static/media/angad_resume.31220e6f.pdf",
     "static/media/pic.jpg": "/about-me/static/media/pic.b60c65e6.jpg"
   }
 }
