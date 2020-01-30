@@ -17,20 +17,17 @@ class Projects extends Component {
                         <h5 className="card-title">
                             <a href="https://github.com/singha95/HearthstoneCardViewer">Hearthstone Card Viewer - Django, Python, HTML, Bootstrap, SQL</a>
                         </h5>
-                        <h5 className="card-title"> Sept 2019 - Current</h5>
+                        <h5 className="card-title"> Sept 2019 - Nov 2019</h5>
                     </nav>
                     <ul>
                         <li> 
-                            Utilizing the Blizzard Hearthstone API in order to create a web app for players to create and search for new cards. 
+                            Utilized the Blizzard Hearthstone API in order to create a web app for players to create and search for new cards. 
                         </li>
                         <li>
-                            Using the oauth2 protocol data about current cards in the game is pulled directly from Blizzards servers. 
+                            Used the oauth2 protocol data about current cards in the game is pulled directly from Blizzards servers. 
                         </li>
                         <li> 
-                            Utilizing SQLite so that users can search quickly search for cards based on type, mana cost and name.
-                        </li>
-                        <li> 
-                            Developing a feature to allow user to create their own build with the app and save a local copy so that they can edit or modify it later. 
+                            Utilized SQLite so that users can search quickly search for cards based on type, mana cost and name.
                         </li>
                     </ul>
                 </div>
