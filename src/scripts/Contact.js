@@ -12,10 +12,8 @@ class Contact extends Component {
   
       <nav className="navbar navbar-expand-lg navbar-light bg-light" id="Contact">
           <p className="contact-details">
-                13 Livingston Drive <br/>
                 Caledon, ON<br/> 
                 Canada <br/> 
-                Phone: 647 801 0974<br/>
           </p>
           <p className="social-media-link">
                 Email: angad.singh@alum.utoronto.ca<br/>

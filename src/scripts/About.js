@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import pic from '../img/pic.jpg';
 import '../css/menu.css';
 
 
