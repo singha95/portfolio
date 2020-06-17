@@ -1,0 +1,124 @@
+@import "animate.css"; 
+
+body {
+    font-family: "Lato", sans-serif;
+}
+.header { 
+    text-align: left;
+    font-size: 50px;
+}
+
+
+.section { 
+    margin-left: 10%;
+    animation: fadeIn 1s;
+}
+
+.section .header{
+    animation: fadeInLeft 1s;
+}
+
+.details { 
+    margin-top: 100px;
+    width: 90%;
+    text-align: left;
+}
+
+.card-style { 
+    width: 90%; 
+    text-align: left; 
+    padding: 30px;
+    
+}
+
+.menu { 
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0px;
+}
+
+.duration { 
+    right: 30px;
+    text-align: right;
+    position: absolute;
+}
+
+.contact-details{ 
+    margin-left: 30%;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.social-media-link { 
+    right: 30%;
+    text-align: left;
+}
+
+.halfCircleBottom {
+    height:100px;
+    width:90%;
+    z-index: -1;
+    position: absolute;
+    margin-left: px; 
+    margin-bottom: 0px;
+    border-radius: 0 200px 0px 0px;
+    background:rgb(221, 219, 219);
+    text-align: left;
+    padding-left: 250px;
+}
+
+.pic { 
+    width:200px; 
+    height:200px; 
+    object-fit: cover;
+    object-position: 100% 0;
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .pic { 
+        width: 100px; 
+        height: 100px; 
+        
+    }
+
+    .halfCircleBottom {
+        height:80px;
+        width:100%;
+        margin-bottom: 300px;
+        padding-left: 120px;
+        font-size: 30px;
+    }
+
+    .details { 
+        width: 100%;
+        text-align: left;
+    }
+
+    .section { 
+        margin-left: 2%;
+    }
+    
+    .card-style { 
+        width: 100%; 
+        text-align: left; 
+        padding: 0px;
+        
+    }
+
+    .contact-details{ 
+        margin-left: 0%;
+        text-align: left;
+        padding-right: 50px;
+    }
+
+    .social-media-link { 
+
+        text-align: left;
+    }
+
+}
