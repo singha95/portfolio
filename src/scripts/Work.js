@@ -13,8 +13,23 @@ class Work extends Component {
                 <p className="header" id="Work">Work Experience</p>
                 <div className="card card-style" >
                     <nav className="navbar">
+                        <h5 className="card-title">Software Developer </h5>
+                        <h5 className="card-title"> June 2020 – Current </h5>
+                    </nav>
+                    <nav className="navbar">
+                        <h10>Bell Canada</h10>
+                    </nav>
+                    <ul>
+                        <li> Develop dashboards to display competitor mobile network speeds across Canada  </li>
+                        <li> Created queries to retrieve data from MariaDB to be displayed on dashboards  </li>
+                        <li> Utilized the Atlassian suite of tools (JIRA, Confluence) to maintain clear lines of communication with team members and project stakeholders </li>
+                        <li> Technologies: Python, Dash, CSS, SQL, Docker, Git </li>
+                    </ul>
+                </div>
+                <div className="card card-style" >
+                    <nav className="navbar">
                         <h5 className="card-title">Technical Application Analyst </h5>
-                        <h5 className="card-title"> Feb 2019 – Current </h5>
+                        <h5 className="card-title"> Feb 2019 – May 2020 </h5>
                     </nav>
                     <nav className="navbar">
                         <h10>Tata Consultancy Services</h10>
@@ -30,7 +45,7 @@ class Work extends Component {
                 <div className="card card-style" >
                     <nav className="navbar">
                         <h5 className="card-title"> Project Engineer </h5>
-                        <h5 className="card-title"> June 2018 – Jan 2019 </h5>
+                        <h5 className="card-title"> May 2018 – Jan 2019 </h5>
                     </nav>
                     <nav className="navbar">
                         <h10> Evertz Microsystems </h10>
@@ -39,7 +54,6 @@ class Work extends Component {
                         <li> Automated the pre-possessing and transcoding of assets in order for customers to play out videos to their respective users and clients. </li>
                         <li> Developed the primary scripts for NBCU’s non-linear delivery of assets to media service providers to transfer assets to various locations using different transfer methods, such as Signiant and Faspex.</li>
                         <li> Refactored SQL queries and reduced run time of existing queries by 50%, in order to improve migration to a new DBMS. </li>
-                        <li> Utilized the Atlassian suite of tools (JIRA, Confluence) to maintain clear lines of communication with team members and project stakeholders, while operating using the SCRUM framework </li>
                         <li> Technologies: JavaScript, Python, SQL, DB2, MariaDB, Git </li>
                     </ul>
                 </div>
