@@ -15,23 +15,18 @@ class NavBar extends Component {
       <div className="collapse navbar-collapse cl-effect-15" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#About">About <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/">About <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Education">Education</a>
+            <a className="nav-link" href="/Publication">Publication</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Publication">Publication</a>
+            <a className="nav-link" href="/Work">Work Experience</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Work">Work Experience</a>
+            <a className="nav-link" href="/Projects">Projects</a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Projects">Projects</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Contact">Contact</a>
-          </li>
+
           <li className="nav-item"> 
             <a className="nav-link" href={pdf}>PDF</a>
           </li>

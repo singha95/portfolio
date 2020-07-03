@@ -9,7 +9,7 @@ class Work extends Component {
 
         return (
 
-            <div className="section">
+            <div>
                 <p className="header" id="Work">Work Experience</p>
                 <div className="card card-style" >
                     <nav className="navbar">

@@ -9,8 +9,7 @@ class Publication extends Component {
     render() {
 
         return (
-
-            <div className="section">
+            <div>
                 <p className="header" id="Publication">Publication</p>
                 <div className="card card-style">
                     <nav className="navbar">

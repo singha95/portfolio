@@ -12,6 +12,7 @@ body {
 .section { 
     margin-left: 10%;
     animation: fadeIn 1s;
+    padding-bottom: 200px;
 }
 
 .section .header{
@@ -36,6 +37,13 @@ body {
     z-index: 99;
     width: 100%;
     top: 0px;
+}
+
+#Contact { 
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: red;
 }
 
 .duration { 

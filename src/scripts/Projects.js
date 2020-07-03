@@ -10,7 +10,7 @@ class Projects extends Component {
 
         return (
 
-            <div className="section">
+            <div>
                 <p className="header" id="Projects">Personal Projects</p>
 
 
