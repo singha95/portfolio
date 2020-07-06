@@ -17,6 +17,7 @@ function App() {
         <div className="section" style={{paddingTop: "150px"}}> 
           <Switch>
             <Route exact path="/" component={About}/>
+            <Route exact path="/about-me" component={About}/>
             <Route path="/work" component={Work}/>
             <Route path="/Projects" component={Projects}/>
             <Route path="/Publication" component={Publication}/>

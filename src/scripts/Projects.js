@@ -17,7 +17,7 @@ class Projects extends Component {
                 <div className="card card-style" >
                     <nav className="navbar">
                         <h5 className="card-title">
-                            <a href="https://github.com/Richmond-Truong/groupFinder">
+                            <a href="https://github.com/singha95/GetStockPrice">
                                 Conky Stock Price – C++, Python
                             </a>
                         </h5>
