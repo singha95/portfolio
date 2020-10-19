@@ -16,9 +16,9 @@ class Contact extends Component {
                 Canada <br/> 
           </p>
           <p className="social-media-link">
-                Email: angad88@hotmail.com<br/>
-                Github: <a href="http://www.github.com/singha95">http://www.github.com/singha95</a><br/>
-                Linkedin: <a href="https://www.linkedin.com/in/angad-88s">https://www.linkedin.com/in/angad-88s</a>
+                angad.singh@alum.utoronto.ca<br/>
+                <a href="http://www.github.com/singha95">Github</a><br/>
+                <a href="https://www.linkedin.com/in/singha95/">Linkedin</a>
           </p>
         </nav>
     );
