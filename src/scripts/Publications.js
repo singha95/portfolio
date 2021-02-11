@@ -15,7 +15,7 @@ class Publication extends Component {
                 <div className="card card-style">
                     <nav className="navbar">
                         <h5 className="card-title">
-                            <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Shugrina_Creative_Flow_Dataset_CVPR_2019_paper.pdf">
+                            <a href="https://www.cs.toronto.edu/creativeflow/">
                                 Cartoon Optical Flow – MATLAB, Python, Bash
                         </a>
                         </h5>
