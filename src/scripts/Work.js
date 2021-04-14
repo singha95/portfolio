@@ -32,7 +32,7 @@ class Work extends Component {
                         <h5 className="card-title"> Feb 2019 – May 2020 </h5>
                     </nav>
                     <nav className="navbar">
-                        <h10>Tata Consultancy Services</h10>
+                        <h10>Tata Consultancy Services (Contractor at RBC) </h10>
                     </nav>
                     <ul>
                         <li> Develop queries to give accurate reports of potential fraudulent transactions or missing transactions to assist with the development of the application.  </li>
