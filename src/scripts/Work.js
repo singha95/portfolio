@@ -20,8 +20,9 @@ class Work extends Component {
                         <h10>Bell Canada</h10>
                     </nav>
                     <ul>
-                        <li> Develop dashboards to display competitor mobile network speeds across Canada  </li>
-                        <li> Created queries to retrieve data from MariaDB to be displayed on dashboards  </li>
+                        <li> Developed dashboards to display competitor mobile network speeds across Canada using Python Dash, Flask, MariaDB, Elasticsearch and Hadoop.  </li>
+                        <li> Utilized the Slack API to create detailed alerts on market changes of competitors.  </li>
+                        <li> Scrapped webpages to get information about incoming competitor site request, using selenium. </li>
                         <li> Utilized the Atlassian suite of tools (JIRA, Confluence) to maintain clear lines of communication with team members and project stakeholders </li>
                         <li> Technologies: Python, Dash, CSS, SQL, Docker, Git </li>
                     </ul>
@@ -32,7 +33,7 @@ class Work extends Component {
                         <h5 className="card-title"> Feb 2019 – May 2020 </h5>
                     </nav>
                     <nav className="navbar">
-                        <h10>Tata Consultancy Services (Contractor at RBC) </h10>
+                        <h10>Tata Consultancy Services (Contractor at RBC Bank) </h10>
                     </nav>
                     <ul>
                         <li> Develop queries to give accurate reports of potential fraudulent transactions or missing transactions to assist with the development of the application.  </li>

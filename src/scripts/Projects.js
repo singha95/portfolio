@@ -13,11 +13,30 @@ class Projects extends Component {
             <div className="section">
                 <p className="header" id="Projects">Personal Projects</p>
 
+                <div className="card card-style" >
+                    <nav className="navbar">
+                        <h5 className="card-title">
+                            <a href="https://github.com/singha95/PS5Webbot">PS5 Webscrapper - Selenium, Python, HTML</a>
+                        </h5>
+                        <h5 className="card-title"> Mar 2021 - May 2021</h5>
+                    </nav>
+                    <ul>
+                        <li> 
+                        	Utilizing the Twitter API in order to create a determine when retailers would have PS5 in stock. 
+                        </li>
+                        <li>
+                            Automate the login, purchasing for specific retailers. 
+                        </li>
+                        <li> 
+                        	Scrapped retailer’s websites to automate the purchase of the PS5 using Selenium.
+                        </li>
+                    </ul>
+                </div>
 
                 <div className="card card-style" >
                     <nav className="navbar">
                         <h5 className="card-title">
-                            <a href="https://github.com/Richmond-Truong/groupFinder">
+                            <a href="https://github.com/singha95/GetStockPrice">
                                 Conky Stock Price – C++, Python
                             </a>
                         </h5>
@@ -30,28 +49,6 @@ class Projects extends Component {
                         <li>Created Python scripts to get monthly and weekly graphs of prices for stocks. </li>
                     </ul>
                 </div>
-
-
-                <div className="card card-style" >
-                    <nav className="navbar">
-                        <h5 className="card-title">
-                            <a href="https://github.com/singha95/HearthstoneCardViewer">Hearthstone Card Viewer - Django, Python, HTML, Bootstrap, SQL</a>
-                        </h5>
-                        <h5 className="card-title"> Sept 2019 - Nov 2019</h5>
-                    </nav>
-                    <ul>
-                        <li> 
-                            Utilized the Blizzard Hearthstone API in order to create a web app for players to create and search for new cards. 
-                        </li>
-                        <li>
-                            Used the oauth2 protocol data about current cards in the game is pulled directly from Blizzards servers. 
-                        </li>
-                        <li> 
-                            Utilized SQLite so that users can search quickly search for cards based on type, mana cost and name.
-                        </li>
-                    </ul>
-                </div>
-
 
                 <div className="card card-style" >
                     <nav className="navbar">
