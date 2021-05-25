@@ -37,10 +37,10 @@ class Projects extends Component {
                     <nav className="navbar">
                         <h5 className="card-title">
                             <a href="https://github.com/singha95/GetStockPrice">
-                                Conky Stock Price – C++, Python
+                                Conky Stock Price - C++, Python
                             </a>
                         </h5>
-                        <h5 className="card-title">  Jan 2020 – Mar 2020</h5>
+                        <h5 className="card-title">  Jan 2020 - Mar 2020</h5>
                     </nav>
                     <ul>
                         <li>Created various terminal tools to retrieve stock data from yahoo finance. Allows users to quickly retrieve stock details from the terminal  </li>
@@ -84,7 +84,7 @@ class Projects extends Component {
                                 CSP Problem Solver - C#, Python
                                 </a>
                         </h5>
-                        <h5 className="card-title"> July 2017 – Sept 2017 </h5>
+                        <h5 className="card-title"> July 2017 - Sept 2017 </h5>
                     </nav>
                     <ul>
                         <li>

@@ -20,10 +20,10 @@ class Work extends Component {
                         <h10>Bell Canada</h10>
                     </nav>
                     <ul>
-                        <li> Developed dashboards to display competitor mobile network speeds across Canada using Python Dash, Flask, MariaDB, Elasticsearch and Hadoop.  </li>
-                        <li> Utilized the Slack API to create detailed alerts on market changes of competitors.  </li>
-                        <li> Scrapped webpages to get information about incoming competitor site request, using selenium. </li>
-                        <li> Utilized the Atlassian suite of tools (JIRA, Confluence) to maintain clear lines of communication with team members and project stakeholders </li>
+                        <li> Developing dashboards to display competitor mobile network speeds across Canada using Python Dash, Flask, MariaDB, Elasticsearch and Hadoop.  </li>
+                        <li> Utilizing the Slack API to create detailed alerts on market changes of competitors.  </li>
+                        <li> Scraping webpages to get information about incoming competitor site requests, using selenium. </li>
+                        <li> Utilizing the Atlassian suite of tools (JIRA, Confluence) to maintain clear lines of communication with team members and project stakeholders </li>
                         <li> Technologies: Python, Dash, CSS, SQL, Docker, Git </li>
                     </ul>
                 </div>
@@ -36,10 +36,10 @@ class Work extends Component {
                         <h10>Tata Consultancy Services (Contractor at RBC Bank) </h10>
                     </nav>
                     <ul>
-                        <li> Develop queries to give accurate reports of potential fraudulent transactions or missing transactions to assist with the development of the application.  </li>
-                        <li> Develop scripts in order to help automate daily tasks. This includes execution of SQL queries and the automatic creation of spread sheets detailing issues in the system.  </li>
-                        <li> Collaborate with other teams to organize major upgrades in order to improve the system performance without causing a major downtime to the system. </li>
-                        <li> Support production environment and resolved any failures or memory issues to ensure that the application was preforming as expected. </li>
+                        <li> Developed queries to give accurate reports of potential fraudulent transactions or missing transactions to assist with the development of the application.  </li>
+                        <li> Developed scripts in order to help automate daily tasks. This includes execution of SQL queries and the automatic creation of spread sheets detailing issues in the system.  </li>
+                        <li> Collaborated with other teams to organize major upgrades in order to improve the system performance without causing a major downtime to the system. </li>
+                        <li> Supported production environment and resolved any failures or memory issues to ensure that the application was preforming as expected. </li>
                         <li> Technologies: Python, Bash, PowerShell, SQL, Hadoop, DB2 </li>
                     </ul>
                 </div>
