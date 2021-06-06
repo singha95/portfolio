@@ -20,8 +20,8 @@ class About extends Component {
                 Angad Singh
               </p>
             </nav>
-            <p className="details">I am a software developer with 2 years of experience hoping to find a career in areas such as machine learning and back-end development. 
-            I graduated from the University of Toronto, Undergratuate Computer Science program with a focus in artifical intelligence.  
+            <p className="details">I am a software developer with 3 years of experience hoping to find a career in areas such as machine learning and back-end development.  
+            I am a Linux enthusiast and have a passion for technology.  
             </p>
         </div>
     );

@@ -24,11 +24,8 @@ class Projects extends Component {
                         <li> 
                         	Utilizing the Twitter API in order to create a determine when retailers would have PS5 in stock. 
                         </li>
-                        <li>
-                            Automate the login, purchasing for specific retailers. 
-                        </li>
                         <li> 
-                        	Scrapped retailer’s websites to automate the purchase of the PS5 using Selenium.
+                        	Scrapped retailer’s websites to automate the login and purchase of the PS5 consoles using Selenium.
                         </li>
                     </ul>
                 </div>
