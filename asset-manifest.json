@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/about-me/static/css/main.39c8065a.chunk.css",
-    "main.js": "/about-me/static/js/main.0cfe1ff0.chunk.js",
-    "main.js.map": "/about-me/static/js/main.0cfe1ff0.chunk.js.map",
+    "main.js": "/about-me/static/js/main.b6648313.chunk.js",
+    "main.js.map": "/about-me/static/js/main.b6648313.chunk.js.map",
     "runtime-main.js": "/about-me/static/js/runtime-main.cc592eca.js",
     "runtime-main.js.map": "/about-me/static/js/runtime-main.cc592eca.js.map",
     "static/css/2.a1ac0e26.chunk.css": "/about-me/static/css/2.a1ac0e26.chunk.css",
@@ -12,13 +12,13 @@
     "static/css/2.a1ac0e26.chunk.css.map": "/about-me/static/css/2.a1ac0e26.chunk.css.map",
     "static/css/main.39c8065a.chunk.css.map": "/about-me/static/css/main.39c8065a.chunk.css.map",
     "static/js/2.c49a327b.chunk.js.LICENSE.txt": "/about-me/static/js/2.c49a327b.chunk.js.LICENSE.txt",
-    "static/media/angad_resume.06d729db.pdf": "/about-me/static/media/angad_resume.06d729db.pdf"
+    "static/media/angad_resume.913bb4dd.pdf": "/about-me/static/media/angad_resume.913bb4dd.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.cc592eca.js",
     "static/css/2.a1ac0e26.chunk.css",
     "static/js/2.c49a327b.chunk.js",
     "static/css/main.39c8065a.chunk.css",
-    "static/js/main.0cfe1ff0.chunk.js"
+    "static/js/main.b6648313.chunk.js"
   ]
 }
